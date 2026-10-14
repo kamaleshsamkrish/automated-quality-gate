@@ -22,3 +22,6 @@ def calculate_total(price: float, quantity: int) -> float:
         raise ValueError("Price and quantity cannot be negative")
 
     return round(price * quantity, 2)
+def faulty_example():
+    unused_value = 10
+    return "This change is faulty"
